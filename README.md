@@ -42,35 +42,22 @@ This project demonstrates the power of AWS serverless and event-driven architect
 ## 🏗 Architecture
 <img width="940" height="625" alt="image" src="https://github.com/user-attachments/assets/7a2d15f0-b26a-455f-94ea-e3d30f8c73f3" />
 
-Architecture Flow
+## Architecture Flow
 
-User uploads CSV via web interface → stored in Amazon S3
+- User uploads CSV via web interface → stored in Amazon S3
+- AWS Lambda triggers Glue DataBrew job for cleaning
+- Glue Crawlers update schema in Glue Data Catalog
+- Data made query-ready for QuickSight / Power BI dashboards
 
-AWS Lambda triggers Glue DataBrew job for cleaning
+## AWS Services Used:
+- Amazon S3 – Data lake for raw CSV storage
+- AWS Lambda – Serverless orchestration & triggers
+- AWS Glue DataBrew – Data cleaning & transformation
+- AWS Glue Crawlers & Data Catalog – Schema cataloging
+- Amazon QuickSight / Power BI – Visualization layer
+- Amazon CloudFront + S3 – Hosting for web interface
 
-Glue Crawlers update schema in Glue Data Catalog
-
-Data made query-ready for QuickSight / Power BI dashboards
-
-AWS Services Used:
-
-Amazon S3 – Data lake for raw CSV storage
-
-AWS Lambda – Serverless orchestration & triggers
-
-AWS Glue DataBrew – Data cleaning & transformation
-
-AWS Glue Crawlers & Data Catalog – Schema cataloging
-
-Amazon QuickSight / Power BI – Visualization layer
-
-Amazon CloudFront + S3 – Hosting for web interface
-
-AWS CodePipeline + CodeBuild – CI/CD automation
-
-AWS CloudFormation – Infrastructure as Code (IaC)
-
-⚙ Tech Stack
+## ⚙ Tech Stack
 
 Frontend: HTML, CSS, JavaScript
 Backend: Node.js (AWS Lambda)
@@ -82,19 +69,15 @@ Orchestration: AWS Lambda + EventBridge
 CI/CD: AWS CodePipeline, AWS CodeBuild
 IaC: AWS CloudFormation
 
-🔄 How It Works
+## 🔄 How It Works
 
-User uploads CSV file → S3 bucket
+- User uploads CSV file → S3 bucket
+- Lambda function triggers DataBrew cleaning workflow
+- Glue Crawlers scan & update schema in Glue Data Catalog
+- Data becomes queryable and ready for dashboards
+- QuickSight/Power BI generates visual insights for end users
 
-Lambda function triggers DataBrew cleaning workflow
-
-Glue Crawlers scan & update schema in Glue Data Catalog
-
-Data becomes queryable and ready for dashboards
-
-QuickSight/Power BI generates visual insights for end users
-
-📸 Screenshots
+## 📸 Screenshots
 
 Upload CSV Page
 
@@ -102,9 +85,8 @@ Cleaned Data Preview
 
 QuickSight Dashboard Example
 
-(Add images when available)
 
-🎥 Live Demo
+## 🎥 Live Demo
 
 ▶ Coming soon...
 
