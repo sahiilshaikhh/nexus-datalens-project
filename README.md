@@ -5,46 +5,31 @@ It helps businesses and data professionals transform raw, unstructured CSV files
 
 Through a simple web interface, users upload raw data, and the system autonomously executes the pipeline: ingestion, cleaning, cataloging, and visualization — accelerating data-to-decision workflows in a secure, scalable, and cost-effective way.
 
-📌 Table of Contents
+## 📌 Table of Contents
 
-Project Overview
+1. [Project Overview](#-project-overview)  
+2. [Features](#-features)  
+3. [Architecture](#-architecture)  
+4. [Tech Stack](#-tech-stack)  
+5. [How It Works](#-how-it-works)  
+6. [Screenshots](#-screenshots)  
+7. [Live Demo](#-live-demo)  
+8. [Setup Instructions](#-setup-instructions)  
+9. [Future Enhancements](#-future-enhancements)  
+10. [Contact](#-contact)
 
-Features
-
-Architecture
-
-Tech Stack
-
-How It Works
-
-Screenshots
-
-Live Demo
-
-Setup Instructions
-
-Future Enhancements
-
-Contact
-
-🌍 Project Overview
+## 🌍 Project Overview
 
 Data analytics often requires time-consuming manual processing before insights can be generated.
 Nexus DataLens automates this by enabling:
-
-Easy CSV upload via a web interface
-
-Data cleaning & preparation with AWS Glue DataBrew
-
-Schema cataloging using AWS Glue Crawlers & Data Catalog
-
-Visualization in Amazon QuickSight or Power BI
-
-Scalable & serverless architecture for low-cost analytics
-
+- Easy CSV upload via a web interface
+- Data cleaning & preparation with AWS Glue DataBrew
+- Schema cataloging using AWS Glue Crawlers & Data Catalog
+- Visualization in Amazon QuickSight or Power BI
+- Scalable & serverless architecture for low-cost analytics
 This project demonstrates the power of AWS serverless and event-driven architectures for modern data engineering.
 
-✨ Features
+## ✨ Features
 
 ✅ Simple CSV upload through a web interface
 ✅ Automated data cleaning & transformation with Glue DataBrew
@@ -54,7 +39,8 @@ This project demonstrates the power of AWS serverless and event-driven architect
 ✅ Automated pipeline triggered on file upload
 ✅ Cost-efficient, pay-as-you-go cloud solution
 
-🏗 Architecture
+## 🏗 Architecture
+<img width="940" height="625" alt="image" src="https://github.com/user-attachments/assets/7a2d15f0-b26a-455f-94ea-e3d30f8c73f3" />
 
 Architecture Flow
 
