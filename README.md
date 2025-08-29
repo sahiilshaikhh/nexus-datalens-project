@@ -90,36 +90,13 @@ QuickSight Dashboard Example
 
 ▶ Coming soon...
 
-🚀 Setup Instructions
-# Clone the repository
-git clone https://github.com/yourusername/nexus-datalens.git  
 
-# Navigate to project folder
-cd nexus-datalens  
 
-# Install dependencies (frontend)
-npm install  
 
-# Start frontend
-npm run dev  
 
-# Deploy backend via AWS CloudFormation
-aws cloudformation deploy --template-file template.yml --stack-name nexus-datalens
 
-🔮 Future Enhancements
+## 📬 Contact
 
-Multi-format support (JSON, Parquet, Excel)
-
-Real-time streaming data support with Kinesis
-
-ML-powered anomaly detection in datasets
-
-Role-based dashboards with Amazon Cognito
-
-📬 Contact
-
-👤 Your Name
-📧 your.email@example.com
-
-🔗 LinkedIn
- | GitHub
+👤 Sahil Shaikh
+📧 sahilshaikhh313@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/sahilshaikh78
