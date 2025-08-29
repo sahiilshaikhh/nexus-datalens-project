@@ -80,10 +80,13 @@ IaC: AWS CloudFormation
 ## 📸 Screenshots
 
 Upload CSV Page
+<img width="940" height="468" alt="image" src="https://github.com/user-attachments/assets/2a0f3ea6-1548-4746-91a5-f04285ebfd70" />
 
 Cleaned Data Preview
+<img width="940" height="410" alt="image" src="https://github.com/user-attachments/assets/c04d81dd-a008-43d7-b56a-8ef7290592b2" />
 
 QuickSight Dashboard Example
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/80ee8c85-205b-42c6-9a5a-b260c20999e9" />
 
 
 ## 🎥 Live Demo
