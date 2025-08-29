@@ -1,4 +1,4 @@
-📊 Nexus DataLens – Cloud-Native Automated Data Analytics Pipeline
+###📊 Nexus DataLens – Cloud-Native Automated Data Analytics Pipeline
 
 Nexus DataLens is a serverless, end-to-end automated data analytics pipeline built on Amazon Web Services (AWS).
 It helps businesses and data professionals transform raw, unstructured CSV files into clean, structured insights without manual effort or deep technical expertise.
